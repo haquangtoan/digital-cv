@@ -1,0 +1,288 @@
+* {
+  margin: 0px;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+  width: 1270px;
+  margin: auto;
+}
+/* CSS cho banner*/
+#banner {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.b-image {
+  width: 1270px;
+  height: 400px;
+  object-fit: none;
+  object-position: top;
+}
+.b-info {
+  position: absolute;
+  display: inline-block;
+  top: 60%;
+  left: 50%;
+  color: #12e435;
+  transform: translate(-50%, -50%);
+}
+.b-info span {
+  color: yellow;
+}
+section > .container {
+  width: 1170px;
+  margin: auto;
+  display: block;
+  padding: 30px 50px;
+}
+/* CSS cho thanh nav-bar*/
+#nav-bar {
+  text-align: center;
+}
+#nav-bar .container {
+  display: grid;
+  grid-template-columns: 23% 27% 27% 23%;
+  padding: 10px;
+  border-radius: 10px;
+  width: 1270px;
+  align-content: center;
+}
+#nav-bar .container a {
+  border: 1px solid gray;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* ảnh cá nhân */
+#nav-bar .radius {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 200px;
+  top: 500px;
+  /* left: 50%; */
+  text-align: center;
+  transform: translate(-50%, -50%);
+  border: 7px solid white;
+}
+/*css thông tin cá nhân*/
+#about {
+  width: 1270px;
+  margin: auto;
+  align-items: center;
+}
+#about .container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+#about #target {
+  margin: 30px 20px 10px 100px;
+}
+#about #personal-info {
+  margin: 30px 20px 10px 80px;
+}
+#about .section-title {
+  padding-bottom: 30px;
+}
+#about .hidden {
+  display: none;
+}
+#about .info span {
+  font-weight: bold;
+}
+#about .info {
+  list-style-type: none;
+}
+#about .icon {
+  color: blue;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+/*job info*/
+#job-info .container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 20px;
+}
+#job-info .contain {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  border: 1px solid grey;
+}
+#job-info .content,
+.taste {
+  grid-area: 2/1/2/3;
+  padding: 20px;
+  font-size: large;
+  line-height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#job-info .present {
+  padding: 5px;
+  background-color: blue;
+  border-radius: 5px;
+  color: #f7f7f7;
+}
+#job-info h1 {
+  padding: 30px;
+  padding-bottom: 15px;
+  font-size: 30px;
+}
+#job-info .view {
+  border-radius: 10%;
+  background-color: rgb(243, 227, 137);
+  border: none;
+  font-size: 15px;
+  padding-top: 3px;
+  margin-bottom: 15px;
+}
+#job-info i {
+  font-size: 50px;
+  padding-top: 15px;
+}
+#job-info .content h2 {
+  padding: 10px;
+  font-size: 20px;
+}
+#job-info li::marker {
+  color: blue;
+}
+#job-info .hidden {
+  opacity: 0;
+}
+#job-info .hdcontent {
+  display: none;
+}
+
+/* Sở thích */
+#job-info .taste {
+  /* display: grid;
+  grid-template-columns: 22% 34% 22% 22%; */
+  text-align: center;
+  padding: 5px;
+  height: 100px;
+  top: 0px;
+}
+#job-info .taste i {
+  display: block;
+  width: 50px;
+  height: 50px;
+  justify-self: center;
+  color: blue;
+  border: 1px solid blue;
+  font-size: 20px;
+  border-radius: 50%;
+}
+#job-info .content .gray {
+  background: gray;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+#job-info .content .blue {
+  background: blue;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+/* chứng chỉ - giải thưởng */
+#certificate {
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+#certificate .section-title {
+  padding-bottom: 30px;
+}
+#certificate .cert-img {
+  width: 230px;
+  padding: 10px;
+}
+#certificate .content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 30px;
+}
+#certificate .item {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-bottom: 30px;
+}
+#certificate .content .item:first-child {
+  border-right: 1px solid #d6c08d;
+}
+#certificate .line {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  height: 2px;
+  border-bottom: 1px solid #d6c08d;
+  width: 100%;
+}
+/* dự án */
+#projects .section-title {
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+#projects .project {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 35px;
+  margin: auto;
+}
+#projects .images {
+  width: 100%;
+  height: 300px;
+}
+#projects .title {
+  display: grid;
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 1px solid gray;
+  align-items: center;
+  padding-left: 10px;
+}
+#projects .icon {
+  padding: 15px;
+  border: 1px solid gray;
+}
+#projects .year {
+  padding: 10px;
+  background-color: blue;
+  border-radius: 10px;
+  color: #f7f7f7;
+}
+#projects .cv-info {
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+#projects .cv-info {
+  padding: 20px 10px 10px 15px;
+  line-height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#projects .cv-info,
+td {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+#projects .cv-info td {
+  vertical-align: top;
+
+  padding: 15px 5px 15px 5px;
+}
+#projects .cv-info td:first-child {
+  width: 90px;
+}
+/*footer*/
+#footer li {
+  display: inline-block;
+  font-size: 30px;
+  text-decoration: none;
+  color: blue;
+}

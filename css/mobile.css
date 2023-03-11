@@ -1,0 +1,84 @@
+@media screen and (max-width: 600px) {
+  *{
+margin: 0,
+padding: 0,
+box-sizing: border-box,
+}
+  .radius {
+    display: none;
+  }
+  .b-image {
+    width: 100%;
+    object-fit: none;
+    object-position: top;
+  }
+  #nav-bar .container {
+    display: block;
+  }
+  #nav-bar .container a {
+    display: block;
+    border: none;
+    text-align: left;
+    padding: 5px;
+    font-size: 20px;
+  }
+  /*css thông tin cá nhân*/
+  #about {
+    align-items: center;
+    font-size: 13px;
+  }
+  #about .container {
+    display: block;
+    width: auto;
+  }
+  #about #target {
+    margin: 5px;
+  }
+  #about #personal-info {
+    margin: 5px;
+  }
+  #job-info .container {
+    display: grid;
+    width: auto;
+    grid-template-columns: auto;
+  }
+  /* chứng chỉ - giải thưởng */
+  #certificate {
+    margin: 0;
+    padding: 0;
+    width: auto;
+  }
+  #certificate .section-title {
+    padding-bottom: 30px;
+  }
+  #certificate .cert-img {
+    width: 230px;
+    padding: 10px;
+  }
+  #certificate .content {
+    display: block;
+  }
+  #certificate .content .item:first-child {
+    border-right: none;
+  }
+  #certificate .item {
+    display: block;
+    border-bottom: 1px solid #d6c08d;
+  }
+  #certificate .line {
+    display: none;
+  }
+  #projects .project {
+    display: block;
+  }
+  #projects .project .items {
+    padding-top: 30px;
+  }
+  /*footer*/
+  #footer {
+    width: auto;
+  }
+  #footer li {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,19 @@
+@media screen and (max-width: 600px) {
+  #digital {
+    display: block;
+    margin: auto;
+  }
+  .container {
+    display: block;
+  }
+  .content {
+    display: block;
+  }
+  .content div:first-child {
+    text-align: center;
+    padding: 10px;
+  }
+  .scopes {
+    display: block;
+  }
+}

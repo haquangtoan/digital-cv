@@ -1,0 +1,50 @@
+. {
+  margin: auto;
+  box-sizing: border-box;
+}
+#digital {
+  display: grid;
+  grid-template-columns: 45% 30% 22%;
+  gap: 20px;
+  padding: 30px;
+  background-color: aqua;
+  margin: 50px;
+}
+.item5 {
+  grid-area: 1/3/3/4;
+}
+h1 {
+  color: blue;
+  font-weight: bolder;
+  border-bottom: 1px solid gray;
+  padding-bottom: 15px;
+}
+.container {
+  display: block;
+  background-color: whitesmoke;
+  padding: 30px;
+  font-size: 13px;
+}
+.content {
+  display: grid;
+  grid-template-columns: auto 70%;
+  padding: 5px;
+}
+.scopes {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.radius-number {
+  display: block;
+  font-size: 25px;
+  border: 1px solid purple;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: rgb(202, 138, 162);
+  color: white;
+  font-weight: 300px;
+  margin-right: 15px;
+}
